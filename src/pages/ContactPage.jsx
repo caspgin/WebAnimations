@@ -1,7 +1,9 @@
 import Inner from "../Inner/Inner"
+import { HeaderSection } from "./HeaderPage"
 export function ContactPage() {
 	return (
 		<Inner>
+			<HeaderSection />
 			<main>
 				<h1>CONTACT</h1>
 

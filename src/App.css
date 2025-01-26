@@ -1,13 +1,17 @@
 .nav {
 	display: flex;
 	gap: 2%;
+	padding: 1.3em;
 }
 
 .page {
-	padding: 1.1em;
 
 	main {
 		padding: 1.1em;
+	}
+
+	h1 {
+		margin: 0;
 	}
 
 	.paras {
@@ -35,4 +39,39 @@
 		gap: 0.5em;
 	}
 
+}
+
+
+.inner {
+
+	.back {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		background-color: black;
+	}
+
+	.ladder {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		display: flex;
+
+		.column {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			position: relative;
+			opacity: 1;
+		}
+
+
+
+	}
 }

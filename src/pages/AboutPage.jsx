@@ -1,8 +1,9 @@
 import Inner from "../Inner/Inner"
-
+import { HeaderSection } from "./HeaderPage"
 export function AboutPage() {
 	return (
 		<Inner>
+			<HeaderSection />
 			<main>
 				<h1>ABOUT</h1>
 
